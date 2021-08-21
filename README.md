@@ -14,7 +14,7 @@ My idea was a little different. Instead, one simply removes the numbers with a p
 
 The first technique is "Single Position". Consider where 1 can go in the highlighted row here:
 
-![](https://github.com/tianxiaozhang1/sudoku/blob/main/single_position_01.png)
+![](https://github.com/tianxiaozhang1/sudoku/blob/main/single_position_01.png){:width="800px"}
 
 Obviously given the positions of the red 1s, we're down to a swift definitive answer:
 
