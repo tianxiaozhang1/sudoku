@@ -14,19 +14,27 @@ My idea was a little different. Instead, one simply removes the numbers with a p
 
 The first technique is "Single Position". Consider where 1 can go in the highlighted row here:
 
-<img src="https://github.com/tianxiaozhang1/sudoku/blob/main/single_position_01.png" width="800">
+<img src="https://github.com/tianxiaozhang1/sudoku/blob/main/single_position_01.png" width="680">
 
 Obviously given the positions of the red 1s, we're down to a swift definitive answer:
 
-<img src="https://github.com/tianxiaozhang1/sudoku/blob/main/single_position_02.png" width="800">
+<img src="https://github.com/tianxiaozhang1/sudoku/blob/main/single_position_02.png" width="680">
 
 Easy. Next is "Candidate Line". Where can 5 go in the highlighted 3x3 box?
 
-<img src="https://github.com/tianxiaozhang1/sudoku/blob/main/candidate_line_01.png" width="800">
+<img src="https://github.com/tianxiaozhang1/sudoku/blob/main/candidate_line_01.png" width="680">
 
-There are only two places it can go, and they form a line. This implies the 5 in that full column must be in the bottom right box and can't be anywhere else on that line. This knowledge even helps solving another box above (blue):
+There are only two places it can go, and they form a line. This implies the 5 in that full column must be in the bottom right box and can't be anywhere else on that line. This knowledge helps solving another box above (blue):
 
-<img src="https://github.com/tianxiaozhang1/sudoku/blob/main/candidate_line_02.png" width="800">
+<img src="https://github.com/tianxiaozhang1/sudoku/blob/main/candidate_line_02.png" width="680">
+
+The next medium level technique is "Double Pairs". We're looking for 3 in the highlighted area (columns 4-6):
+
+<img src="https://github.com/tianxiaozhang1/sudoku/blob/main/double_pairs_01.png" width="680">
+
+It's obvious that they can only be in those four spots in colums 4 and 6. They form two lines along those two columns. As a result, the 3 in the middle bottom can only be along the middle column, marked blue:
+
+<img src="https://github.com/tianxiaozhang1/sudoku/blob/main/double_pairs_02.png" width="680">
 
 Now let's take a look at the interface:
 
