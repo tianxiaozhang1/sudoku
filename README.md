@@ -18,7 +18,9 @@ My idea was a little different. Instead, one simply removes the numbers with a p
 
 ## The Techniques
 
-The first technique is <b>Single Position</b>. Consider where 1 can go in the highlighted row here:
+### Easy - Single Position
+
+Consider where 1 can go in the highlighted row here:
 
 <img src="https://github.com/tianxiaozhang1/sudoku/blob/main/single_position_01.png" width="680">
 
@@ -26,23 +28,31 @@ Obviously given the positions of the red 1s, we're down to a swift definitive an
 
 <img src="https://github.com/tianxiaozhang1/sudoku/blob/main/single_position_02.png" width="680">
 
-Easy. Next is <b>Candidate Line</b>. Where can 5 go in the highlighted 3x3 box?
+Easy.
+
+### Medium - Candidate Line
+
+Where can 5 go in the highlighted 3x3 box?
 
 <img src="https://github.com/tianxiaozhang1/sudoku/blob/main/candidate_line_01.png" width="680">
 
 There are only two places it can go, and they form a line. This implies the 5 in that full column must be in the bottom right box and can't be anywhere else on that line. This knowledge helps solving another box above (blue):
 
-<img src="https://github.com/tianxiaozhang1/sudoku/blob/main/candidate_line_02.png" width="680">
+<img src="https://github.com/tianxiaozhang1/sudoku/blob/main/candidate_line_02a.png" width="680">
 
-The next medium level technique is "Double Pairs". We're looking for 3 in the highlighted area (columns 4-6):
+### Medium - Double Pairs
+
+We're looking for 3 in the highlighted area (columns 4-6):
 
 <img src="https://github.com/tianxiaozhang1/sudoku/blob/main/double_pairs_01.png" width="680">
 
 It's obvious that they can only be in those four spots in colums 4 and 6. They form two lines along those two columns. As a result, the 3 in the middle bottom can only be along the middle column, marked blue:
 
-<img src="https://github.com/tianxiaozhang1/sudoku/blob/main/double_pairs_02.png" width="680">
+<img src="https://github.com/tianxiaozhang1/sudoku/blob/main/double_pairs_02a.png" width="680">
 
-For the next level, the pattern is "Naked Pairs". For the highlighted row, candidates for all the empty squares are marked. Note the pair that are "2 6":
+### Hard - Naked Pairs
+
+For the highlighted row, candidates for all the empty squares are marked. Note the pair that are "2 6":
 
 <img src="https://github.com/tianxiaozhang1/sudoku/blob/main/naked_pairs_01.png" width="680">
 
@@ -50,19 +60,33 @@ We haven't a clue which goes where, but we do know those two are 2 and 6 for sur
 
 <img src="https://github.com/tianxiaozhang1/sudoku/blob/main/naked_pairs_02.png" width="680">
 
-The two expert level techniques are similar. First is X-wings. 7 can only be in four places in the highlighted rows:
+### Expert - X-Wings
+
+7 can only be in four places in the highlighted rows:
 
 <img src="https://github.com/tianxiaozhang1/sudoku/blob/main/xwings_01.png" width="680">
 
-Imagine deciding the top left to be 7. This would imply 7 won't be in the same row or column, hence the diagonal square will be 7 as well. 
+Among those four squares, imagine deciding the top left to be 7. This would imply 7 won't be in the same row or column, hence the diagonal square will be 7 as well:
 
-Similarly, if the top left is 1, the diagonal will also be 1. The two scenarios are shown here:
+<img src="https://github.com/tianxiaozhang1/sudoku/blob/main/xwings_01a.png" width="680">
 
-<img src="https://github.com/tianxiaozhang1/sudoku/blob/main/xwings_02a.png">
+Similarly, if the top left is 1, the diagonal will also be 1. The two scenarios are shown here, the four squares in question here form an "X":
 
-The shape of the four squares in question here form an "X". A very useful implication is while we don't know which of the two rows has 7 on the left, but we can deduce the fact that 7 is definitely in those two columns (and rows), hence we can remove any other 7 in those columns, e.g. the purple square, which leaves us only one possibility for it:
+<img src="https://github.com/tianxiaozhang1/sudoku/blob/main/xwings_02b.png">
+
+A very useful implication is while we don't know which of the two rows has 7 on the left, but we can deduce the fact that 7 is definitely in those two columns, hence we can remove any other 7 in those columns, e.g. the purple square, which leaves us only one possibility for it:
 
 <img src="https://github.com/tianxiaozhang1/sudoku/blob/main/xwings_03.png" width="680">
+
+### Expert - Swordfish
+
+X-wings is a study of two rows. Now let's tackle three. Here's a puzzle that probably can't be solved further with simple techniques. Candidates for 5 are marked:
+
+<img src="https://github.com/tianxiaozhang1/sudoku/blob/main/swordwish_01a.png" width="680">
+
+Among the candidates, we need a chain of six or more, the same way x-wings needs a chain of four:
+
+
 
 Now let's take a look at the interface:
 
