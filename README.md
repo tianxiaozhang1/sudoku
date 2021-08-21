@@ -36,6 +36,28 @@ It's obvious that they can only be in those four spots in colums 4 and 6. They f
 
 <img src="https://github.com/tianxiaozhang1/sudoku/blob/main/double_pairs_02.png" width="680">
 
+For the next level, the pattern is "Naked Pairs". For the highlighted row, candidates for all the empty squares are marked. Note the pair that are "2 6":
+
+<img src="https://github.com/tianxiaozhang1/sudoku/blob/main/naked_pairs_01.png" width="680">
+
+We haven't a clue which goes where, but we do know those two are 2 and 6 for sure. It's a significant find when we realize none of the other squares can contain 2 and 6:
+
+<img src="https://github.com/tianxiaozhang1/sudoku/blob/main/naked_pairs_02.png" width="680">
+
+The two expert level techniques are similar. First is X-wings. 7 can only be in four places in the highlighted rows:
+
+<img src="https://github.com/tianxiaozhang1/sudoku/blob/main/xwings_01.png" width="680">
+
+Imagine deciding the top left to be 7. This would imply 7 won't be in the same row or column, hence the diagonal square will be 7 as well. 
+
+Similarly, if the top left is 1, the diagonal will also be 1. The two scenarios are shown here:
+
+<img src="https://github.com/tianxiaozhang1/sudoku/blob/main/xwings_02a.png">
+
+The shape of the four squares in question here form an "X". A very useful implication is while we don't know which of the two rows has 7 on the left, but we can deduce the fact that 7 is definitely in those two columns (and rows), hence we can remove any other 7 in those columns, e.g. the purple square, which leaves us only one possibility for it:
+
+<img src="https://github.com/tianxiaozhang1/sudoku/blob/main/xwings_03.png" width="680">
+
 Now let's take a look at the interface:
 
 There are four difficulty levels:
