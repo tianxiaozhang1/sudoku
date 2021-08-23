@@ -68,15 +68,11 @@ We haven't a clue which goes where, but we do know those two are 2 and 6 for sur
 
 Among those four squares, imagine deciding the top left to be 7. This would imply 7 won't be in the same row or column, hence the diagonal square will be 7 as well:
 
-<img src="https://github.com/tianxiaozhang1/sudoku/blob/main/xwings_01a.png" width="680">
+<img src="https://github.com/tianxiaozhang1/sudoku/blob/main/xwings_01b.png" width="680">
 
 Similarly, if the top left is 1, the diagonal will also be 1. The two scenarios are shown here, the four squares in question here form an "X":
 
-<img src="https://github.com/tianxiaozhang1/sudoku/blob/main/xwings_02b.png">
-
-A very useful implication is while we don't know which of the two rows has 7 on the left, but we can deduce the fact that 7 is definitely in those two columns, hence we can remove any other 7 in those columns, e.g. the purple square, which leaves us only one possibility for it:
-
-<img src="https://github.com/tianxiaozhang1/sudoku/blob/main/xwings_03.png" width="680">
+<img src="https://github.com/tianxiaozhang1/sudoku/blob/main/xwings_02ba.png">
 
 ### Expert - Swordfish
 
