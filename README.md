@@ -86,7 +86,7 @@ Among the candidates, we need a chain of six or more, the same way x-wings needs
 
 And we have two scenarios for going either way on the top left square:
 
-<img src="https://github.com/tianxiaozhang1/sudoku/blob/main/swordwish_03a.png">
+<img src="https://github.com/tianxiaozhang1/sudoku/blob/main/swordwish_03b.png">
 
 Back on the whole board, 5 anywhere in the three highlighted columns but not in those highlighted rows can be disregarded:
 
