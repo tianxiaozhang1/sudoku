@@ -76,13 +76,21 @@ Hence the name of the technique:
 
 ### Expert - Swordfish
 
-X-wings is a study of two rows. Now let's tackle three. Here's a puzzle that probably can't be solved further with simple techniques. Candidates for 5 are marked:
+X-wings is a study of two rows. Now let's tackle three. Here's a puzzle that probably can't be solved further with simple techniques. Candidates for 5 are highlighted:
 
-<img src="https://github.com/tianxiaozhang1/sudoku/blob/main/swordwish_01a.png" width="680">
+<img src="https://github.com/tianxiaozhang1/sudoku/blob/main/swordwish_01.png" width="680">
 
 Among the candidates, we need a chain of six or more, the same way x-wings needs a chain of four:
 
+<img src="https://github.com/tianxiaozhang1/sudoku/blob/main/swordwish_02.png" width="680">
 
+And we have two scenarios for going either way on the top left square:
+
+<img src="https://github.com/tianxiaozhang1/sudoku/blob/main/swordwish_03a.png">
+
+Back on the whole board, 5 anywhere in the three highlighted columns but not in those highlighted rows can be disregarded:
+
+<img src="https://github.com/tianxiaozhang1/sudoku/blob/main/swordwish_04.png" width="680">
 
 Now let's take a look at the interface:
 
