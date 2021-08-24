@@ -62,17 +62,17 @@ We haven't a clue which goes where, but we do know those two are 2 and 6 for sur
 
 ### Expert - X-Wings
 
-7 can only be in four places in the highlighted rows:
+9 can only be in four places in the highlighted columns:
 
-<img src="https://github.com/tianxiaozhang1/sudoku/blob/main/xwings_01.png" width="680">
+<img src="https://github.com/tianxiaozhang1/sudoku/blob/main/x_wings_01a.png" width="680">
 
-Among those four squares, imagine deciding the top left to be 7. This would imply 7 won't be in the same row or column, hence the diagonal square will be 7 as well:
+Among those four squares, imagine deciding the top left to be 9. This would imply 9 won't be in the same row or column, hence the diagonal square (bottom right) will be 9 as well. Similarly, if the top right is 9, the diagonal (bottom left) will also be 9. The two scenarios are shown here:
 
-<img src="https://github.com/tianxiaozhang1/sudoku/blob/main/xwings_01b.png" width="680">
+<img src="https://github.com/tianxiaozhang1/sudoku/blob/main/x_wings_02d.png">
 
-Similarly, if the top left is 1, the diagonal will also be 1. The two scenarios are shown here, the four squares in question here form an "X":
+Hence the name of the technique:
 
-<img src="https://github.com/tianxiaozhang1/sudoku/blob/main/xwings_02ba.png">
+<img src="https://github.com/tianxiaozhang1/sudoku/blob/main/x_wings_03.png" width="680">
 
 ### Expert - Swordfish
 
