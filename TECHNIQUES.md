@@ -1,3 +1,5 @@
+Main readme page: https://github.com/tianxiaozhang1/sudoku/blob/main/README.md
+
 # Solving Techniques
 
 Thanks to modern computing power, solving sudoku is easy without intelligent techniques. A recursive function going through all possibilities on all squares does the job faster than we mortals can react. My interest is in what makes some puzzles hard and some easy.
