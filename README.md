@@ -22,7 +22,7 @@ https://github.com/tianxiaozhang1/sudoku/blob/master/TECHNIQUES.md
 https://www.python.org/downloads
 
 ### Pygame
-https://www.pygame.org/news
+https://www.pygame.org/wiki/GettingStarted
 
 ## Gameplay
 
