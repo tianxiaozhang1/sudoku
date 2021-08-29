@@ -16,6 +16,14 @@ A detailed write of those techniques:
 
 https://github.com/tianxiaozhang1/sudoku/blob/master/TECHNIQUES.md
 
+## Requirements
+
+### Python 3
+https://www.python.org/downloads
+
+### Pygame
+https://www.pygame.org/news
+
 ## Gameplay
 
 There are four difficulty levels:
