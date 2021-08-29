@@ -8,7 +8,7 @@ Contrary to a popular guess, <b>difficulty is not correlated with the amount of 
 
 So the process should go like this: figure out the different techniques used to find a missing number. Give the less obvious or more time-consuming ones a higher "cost". Then start with a random full puzzle with all 81 numbers, and randomly remove some to begin; then constantly remove a pair of numbers at a time, and solve it. Each time this is done, see which technique was used, and keep a tally of the total difficulty cost. Once you reach the desired amount, that's a good puzzle. Obviously if the puzzle becomes too hard or impossible, take a step back and select something else to remove. If we're looking for a level 4 difficulty, you start with level 1 and keep going until 2, and on, until 4.
 
-My idea was a little different. Instead, one simply removes the numbers with a pattern in mind. Seven out of the twelve common techniques had some kind of a pattern that felt programmable, and I reverse-engineered those. Still starting with a full board, just use those particular patterns to remove numbers depending on which difficulty is selected. 
+My idea was a little different. Instead, one simply removes the numbers with a pattern in mind. Six out of the twelve common techniques had some kind of a pattern that felt programmable, and I reverse-engineered those. Still starting with a full board, just use those particular patterns to remove numbers depending on which difficulty is selected. 
 
 ## Easy - Single Position
 
