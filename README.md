@@ -8,9 +8,11 @@ If you haven't played one before, here's how it goes in a nutshell: in a 9-by-9 
 
 ## Solving Techniques
 
-Although one may rightfully guess sudoku's difficulty is directly correlated with the amount of numbers missing, that isn't quite true. This program reverse-engineers some of the techniques involved in solving sudoku and attempts to design puzzles with different difficulty levels.
+Although one may rightfully guess sudoku's difficulty is directly correlated with the amount of numbers missing, that isn't quite true. This program reverse-engineers some of the techniques involved in solving sudoku and attempts to design puzzles with different difficulty levels:
 
-A detailed write up with examples for all the techniques used here:
+<img src="https://github.com/tianxiaozhang1/sudoku/blob/main/techniques.png" width="680">
+
+A detailed write of those techniques:
 
 https://github.com/tianxiaozhang1/sudoku/blob/master/TECHNIQUES.md
 
