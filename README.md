@@ -20,27 +20,22 @@ https://github.com/tianxiaozhang1/sudoku/blob/master/TECHNIQUES.md
 
 There are four difficulty levels:
 
-![](https://github.com/tianxiaozhang1/sudoku/blob/main/sudoku01.gif)
+![](https://github.com/tianxiaozhang1/sudoku/blob/main/sudoku01a.gif)
 
-(And the buttons will be less distracting when the game begins)
+![](https://github.com/tianxiaozhang1/sudoku/blob/main/sudoku02a.gif)
 
-One can enter numbers with both the keyboard and the mouse:
+![](https://github.com/tianxiaozhang1/sudoku/blob/main/sudoku03a.gif)
 
-![](https://github.com/tianxiaozhang1/sudoku/blob/main/sudoku02.gif)
+![](https://github.com/tianxiaozhang1/sudoku/blob/main/sudoku04a.gif)
 
-No cheating when game is paused:
+![](https://github.com/tianxiaozhang1/sudoku/blob/main/sudoku05a.gif)
 
-![](https://github.com/tianxiaozhang1/sudoku/blob/main/sudoku03.gif)
+![](https://github.com/tianxiaozhang1/sudoku/blob/main/sudoku06a.gif)
 
-There's no need to have the clock over there adding pressure if you prefer otherwise:
+## Further Reading
 
-![](https://github.com/tianxiaozhang1/sudoku/blob/main/sudoku04.gif)
+All techniques used in this program and many of the examples are from:
 
-Erasing a mistake is easy - can be done via the keyboard or the mouse:
+https://www.sudokuoftheday.com/
 
-![](https://github.com/tianxiaozhang1/sudoku/blob/main/sudoku05.gif)
-
-And everything else should feel intuitive:
-
-![](https://github.com/tianxiaozhang1/sudoku/blob/main/sudoku06.gif)
-
+Thanks for visiting.
