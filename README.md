@@ -12,7 +12,7 @@ Although one may rightfully guess sudoku's difficulty is directly correlated wit
 
 <img src="https://github.com/tianxiaozhang1/sudoku/blob/main/techniques.png" width="680">
 
-A detailed write of those techniques:
+A detailed write up of those techniques:
 
 https://github.com/tianxiaozhang1/sudoku/blob/master/TECHNIQUES.md
 
